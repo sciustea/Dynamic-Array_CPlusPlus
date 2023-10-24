@@ -16,7 +16,7 @@ A: For the increaseArraySize() method, I doubled the size of the array when it w
    However, despite the occasional additional time cost for resizing the array, over many insertions, 
    the average time per individual insertion remains constant because resizing happens infrequently. 
    Therefore, I thought it's best to double the array for efficiency purposes.
-* 
+   
 Q: When you decreased the size of the array, how much did you decrease it by and why did you choose to decrease it by that amount?
 A: For the decreaseArraySize() method, I decreased the array size if it was utilized less than 20% (0.2 in decimal). 
    Also, I set a constraint of minimum size of 12 elements to make sure the array doesn't become too small. 
